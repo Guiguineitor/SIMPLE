@@ -1,0 +1,6 @@
+//cd /D/codes/SIMPLE yacc -d sintatica.y bison -dy hello.y
+int main()
+{
+	b = a + 1;
+	b = 1;
+}
