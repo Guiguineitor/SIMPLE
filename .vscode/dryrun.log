@@ -1,9 +1,11 @@
 make.exe -f D:\codes\SIMPLE --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'd:/Documentos/Estudos/Compiladores/SIMPLE'
-make: Leaving directory 'd:/Documentos/Estudos/Compiladores/SIMPLE'
  
 make: D:\codes\SIMPLE: Permission denied
+ 
 make: *** No rule to make target 'D:\codes\SIMPLE'.
 make: Failed to remake makefile 'D:\codes\SIMPLE'.
 make: *** No targets specified and no makefile found.  Stop.
+ 
+make: Leaving directory 'd:/Documentos/Estudos/Compiladores/SIMPLE'
  
