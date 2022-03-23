@@ -10,10 +10,12 @@ make: *** No rule to make target 'D:\codes\SIMPLE'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Mar 13 17:51:52 2022
+# Make data base, printed on Wed Mar 23 18:44:56 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -21,11 +23,13 @@ LC_ALL = C
 # environment
 USERPROFILE = C:\Users\guidr
 # environment
+LOCAL_GIT_DIRECTORY = C:\Users\guidr\AppData\Local\GitHubDesktop\app-2.9.12\resources\app\git
+# environment
 LOCALAPPDATA = C:\Users\guidr\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-84c26a31-7cff-4a09-9e5b-a16c8d174708-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bb3d7223-5250-4c9e-8fd3-624270100c63-sock
 # environment
-VSCODE_CWD = C:\Users\guidr\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\guidr\AppData\Local\GitHubDesktop\app-2.9.12
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -41,7 +45,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12456_VNEZGBRNEFMJBEEY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6504_VIFIKVDBNIAEHVKJ
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -71,11 +77,11 @@ MAKEFLAGS = prR
 # environment
 ONEDRIVE = C:\Users\guidr\OneDrive
 # makefile
-CURDIR := d:/codes/SIMPLE
+CURDIR := d:/Documentos/Estudos/Compiladores/SIMPLE
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -95,7 +101,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 12456
+VSCODE_PID = 6504
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -127,8 +133,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Users\guidr\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;D:\Git\cmd;C:\Users\guidr\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\guidr\AppData\Local\Programs\Python\Python310\;C:\Users\guidr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\guidr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\guidr\AppData\Local\Programs\Python\Python310;C:\Users\guidr\AppData\Local\Programs\Python\Python310\Scripts;C:\Progra 
-m Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;D:\SDL2\SDL2-2.0.20\lib\x64;C:\Users\guidr\.dotnet\tools;C:\MinGW\bin;
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Users\guidr\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;D:\Dev-Cpp;D:\GnuWin32\bin;D:\Git\cmd;C:\Users\guidr\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\guidr\AppData\Local\Programs\Python\Python310\;C:\Users\guidr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\guidr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\guidr\AppData\Local\Programs\Python\Python310;C:\Users\guidr\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;D:\SDL2\SDL2-2.0.20\lib\x64;C:\Users\guidr\.dotnet\tools;C:\MinGW\bin;D:\GnuWin32\bin;D:\Dev-Cpp\bin;D:\win_flex_bison-latest\custom_build_rules\Bison;D:\win_flex_bison-latest\custom_build_rules\Flex;D:\win_flex_bison-latest;C:\Users\guidr\AppData\Local\Pandoc\;C:\Users\guidr\AppData\Local\GitHubDesktop\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -148,7 +153,8 @@ VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = guidr
 # environment
-COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+COMMONPROGRAMFIL 
+ES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -207,6 +213,10 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -214,7 +224,7 @@ PROCESSOR_REVISION = 8e0a
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=99/1024=10%, Rehash=0, Collisions=9/120=8%
+# Load=104/1024=10%, Rehash=0, Collisions=10/125=8%
 
 # Pattern-specific Variable Values
 
@@ -233,8 +243,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
 
 # Not a target:
 .DEFAULT:
-#  Implicit rule search has not b 
-een done.
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -265,6 +274,6 @@ D:\codes\SIMPLE:
 # strcache performance: lookups = 7 / hit rate = 28%
 # hash-table stats:
 # Load=5/8192=0%, Rehash=0, Collisions=0/7=0%
-# Finished Make data base on Sun Mar 13 17:51:52 2022
+# Finished Make data base on Wed Mar 23 18:44:56 2022
 
  
